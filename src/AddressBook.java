@@ -12,7 +12,7 @@ public class AddressBook {
  	public static void main(String[] args) {
  	
 		BuddyInfo buddy = new BuddyInfo("Tash", "orleans", "61373731111");
-		System.out.println("Address Book");
+		System.out.println("Tash's Address Book");
 		AddressBook addressBook = new AddressBook();
 		addressBook.addBuddy(buddy);
 		addressBook.removeBuddy(0);
