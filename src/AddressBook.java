@@ -2,8 +2,7 @@ import java.util.*;
 
 public class AddressBook {
  
-	private ArrayList buddyInfo = new ArrayList();
- 	public String book = "";
+	private ArrayList<BuddyInfo> buddyInfo = new ArrayList<BuddyInfo>();
 	
  	public AddressBook(){
  	
@@ -21,11 +20,11 @@ public class AddressBook {
 	
  
 	
-	public ArrayList getBuddyInfo() {
+	public ArrayList<BuddyInfo> getBuddyInfo() {
 		return buddyInfo;
 	}
 
-	public void setBuddyInfo(ArrayList buddyInfo) {
+	public void setBuddyInfo(ArrayList<BuddyInfo> buddyInfo) {
 		this.buddyInfo = buddyInfo;
  	}
  	
