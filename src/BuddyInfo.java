@@ -39,6 +39,10 @@ public class BuddyInfo {
 		this.phoneNumber = phoneNumber;
 	}
 	
+	public void newMethod() {
+		
+		System.out.println("New Method");
+	}
 	
 	//edit on git
 	
