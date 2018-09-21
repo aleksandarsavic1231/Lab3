@@ -40,7 +40,7 @@ public class BuddyInfo {
 	}
 	
 	
-	
+	//edit on git
 	
 
 }
